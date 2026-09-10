@@ -1,0 +1,9 @@
+[build]
+builder = "RAILPACK"
+buildCommand = "npm install --include=dev && npm rebuild better-sqlite3 && npm run build:web"
+
+[deploy]
+startCommand = "node server/prod.mjs"
+healthcheckPath = "/api/status"
+healthcheckTimeout = 60
+restartPolicyType = "ON_FAILURE"
