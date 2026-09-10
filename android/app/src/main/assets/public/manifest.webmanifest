@@ -1,0 +1,18 @@
+{
+  "name": "TradeBuddy — AI Chart Analysis",
+  "short_name": "TradeBuddy",
+  "description": "Early Access AI chart analysis from screenshots. Research only.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#111111",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
